@@ -1,0 +1,22 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VPN Website</title>
+</head>
+<body>
+    <h1>Welcome to My VPN Website</h1>
+    
+    <button onclick="connectVPN()">Connect to VPN</button>
+    
+    <iframe id="vpnFrame" style="display: none;"></iframe>
+    
+    <script>
+        function connectVPN() {
+            var vpnFrame = document.getElementById("vpnFrame");
+            vpnFrame.src = "https://geforcenow.com";
+            vpnFrame.style.display = "block";
+        }
+    </script>
+</body>
+</html>
